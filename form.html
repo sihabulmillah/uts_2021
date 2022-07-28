@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <section>
+        <div class="login">
+            <form method="GET" action="login.php">
+                <h1>Login your acount</h1>
+                <ul>
+
+                    <li><input type="text" placeholder="Username" size="30" autocomplete="off"></li>
+                    <li><input type="password" placeholder="Password" size="30" autocomplete="off"></li>
+                    <li><button type="submit" name="submit">Login</button></li>
+                </ul>
+            </form>
+
+        </div>
+
+        <div class="register">
+            <form action="">
+                <fieldset>
+                    <legend>Formulir Data Santri</legend>
+                    <table cellspacing="6">
+                        <tr>
+                            <td><label for="name">Nama</label></td>
+                            <td>:</td>
+                            <td><input type="text" name="nama" id="name" placeholder="Nama" size="30"
+                                    autocomplete="off">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td>:</td>
+                            <td><input type="text" name="email" id="email" placeholder="Email" size="30"
+                                    autocomplete="off">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="gender">Gender</label></td>
+                            <td>:</td>
+                            <td><input type="radio" name="jenisKelamin" id="gender" value="laki laki"><label
+                                    for="lk">Laki
+                                    Laki</label>
+                                <input type="radio" name="jenisKelamin" id="gender" value="perempuan"><label
+                                    for="pr">Perempuan</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="Hobi">Hobi</label></td>
+                            <td>:</td>
+                            <td><input type="checkbox" id="ol" value=""><label for="ol">Olahraga</label>
+                                <input type="checkbox" id="mn" value=""><label for="mn">Menulis</label>
+                                <input type="checkbox" id="kd" value=""><label for="kd">Ngoding</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="ttl">Tanggal Lahir</label></td>
+                            <td>:</td>
+                            <td><input type="date" name="tanggal" id="ttl"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="asal">Asal Daerah</label></td>
+                            <td>:</td>
+                            <td><select name="Asal" id="asal">
+                                    <option hidden>Pilih Kota</option>
+                                    <option value="Riau">Riau</option>
+                                    <option value="Kudus">Kudus</option>
+                                    <option value="Bandung">Bandung</option>
+                                    <option value="Tasikmalaya">Tasikmalaya</option>
+                                    <option value="Tanggerang">Tanggerang</option>
+                                    <option value="Bekasi">Bekasi</option>
+                                    <option value="Bogor">Bogor</option>
+                                    <option value="Aceh">Aceh</option>
+                                    <option value="Demak">Demak</option>
+                                    <option value="Cimahi">Cimahi</option>
+                                    <option value="Cirebon">Cirebon</option>
+                                </select></td>
+                        </tr>
+                        <tr>
+                            <td valign="top"><label for="alamat">Alamat</label></td>
+                            <td valign="top">:</td>
+                            <td><textarea name="alamat" id="alamat" cols="30" rows="10"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" align="center"> <button type="submit">Kirim</button>
+                                <button type="reset">Ulang</button>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

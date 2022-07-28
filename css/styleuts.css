@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    width: 100%;
+    height: 70px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head img {
+    width: 130px;
+    height: 40px;
+    margin-left: 70px;
+}
+
+.head .menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-right: 70px;
+    width: 40%;
+    font-family: 'touch';
+    font-size: 0.9em;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li a:hover {
+    color: yellowgreen;
+}
+
+.articel {
+    width: 100%;
+    height: 71vmin;
+    background-image: url(../img/beg.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.articel h1 {
+    padding-top: 5%;
+    font-size: 3.8em;
+    font-family: "URW Gothic";
+}
+
+.pencarian {
+    background-color: white;
+    width: 60%;
+    height: 10%;
+    margin: 2% auto;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.pencarian img {
+    height: 1.2em;
+    margin: 10px;
+    float: left;
+}
+
+.pencarian span {
+    color: grey;
+    line-height: 40px;
+}
+
+.pilihan1 {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 60%;
+    font-size: 0.8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px auto;
+}
+
+.pilihan2 {
+    display: flex;
+    list-style-type: none;
+    width: 80%;
+    margin: 15px auto;
+    justify-content: space-between;
+    font-size: 1.3em;
+    font-family: "freesans";
+    cursor: pointer;
+}
+
+.pilihan2 li:hover {
+    text-decoration: underline;
+}
+
+.cari {
+    font-size: 1em;
+    margin-top: 2.5%;
+    background-color: rgb(55, 253, 154);
+    width: 23%;
+    height: 45px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 0;
+}
+
+.cari:hover {
+    transform: scale(1.02);
+    font-size: 1.1em;
+}
+
+.transaksi {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.transaksi h1 {
+    font-family: "manjari";
+    font-weight: 1000;
+}
+
+.transaksi p {
+    font-family: sans-serif;
+}
+
+.bayar {
+    display: flex;
+    justify-content: center;
+}
+
+.bayar img {
+    width: 75px;
+    margin: 10px 20px;
+}
+
+.paket {
+    height: 350px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.paket aside {
+    background-color: white;
+    width: 22%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+}
+
+aside h2 {
+    font-family: "URW Gothic";
+}
+
+.cash {
+    border-bottom: 1px solid gray;
+    padding: 15px;
+}
+
+.sekali {
+    border: 2px solid blue;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: blue;
+    font-family: "URW Gothic";
+    font-weight: bold;
+}
+
+.mini h2 {
+    margin-top: 10px;
+}
+
+.benefit {
+    margin-left: 30px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.gratis {
+    background-color: blue;
+    color: white;
+    width: 190px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: "URW Gothic";
+    font-size: 13px;
+}
+
+.lis {
+    margin-top: 8px;
+}
+
+.list {
+    margin-top: 15px;
+}
+
+#mulai {
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    border: 0;
+    background-color: rgb(55, 253, 154);
+    margin-left: 34%;
+
+}
+
+#mulai:hover {
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+
+footer {
+    margin-top: 60px;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.daftar {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    color: gray;
+    align-items: center;
+    list-style: none;
+}
+
+.daftar li:hover {
+    color: white;
+}
+
+footer #logo {
+    width: 120px;
+    height: 40px;
+}
+
+.medsos {
+    display: flex;
+    justify-content: space-between;
+    width: 8%;
+    list-style-type: none;
+    align-items: center;
+}
+
+.medsos li img {
+    width: 30px;
+}
+
+/* responsive  */
+/* ukuran mobile*/
+@media screen and (min-width: 576px) {}
+
+/*  ukuran tablet */
+@media screen and (min-width: 768px) {}
